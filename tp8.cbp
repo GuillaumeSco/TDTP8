@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="td/tp8" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/td/tp8" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/td/tp8" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="RobotCarburant.cpp" />
+		<Unit filename="RobotCarburant.h" />
+		<Unit filename="RobotEscargot.cpp" />
+		<Unit filename="RobotEscargot.h" />
+		<Unit filename="RobotRapide.cpp" />
+		<Unit filename="RobotRapide.h" />
+		<Unit filename="RobotTeleporteur.cpp" />
+		<Unit filename="RobotTeleporteur.h" />
+		<Unit filename="RobotTraceur.cpp" />
+		<Unit filename="RobotTraceur.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="robot.cpp" />
+		<Unit filename="robot.h" />
+		<Unit filename="testRobotPolymorphe.cpp" />
+		<Unit filename="testRobotPolymorphe.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
