@@ -7,6 +7,7 @@
 #include "RobotRapide.h"
 #include "RobotTraceur.h"
 #include "RobotCarburant.h"
+#include "RobotDollard.h"
 #include "RobotEscargot.h"
 #include "testRobotPolymorphe.h"
 
@@ -18,7 +19,7 @@ void testRobotTraceur();
 void testRobotRapide();
 void testRobotTeleporteur();
 void testRobot();
-
+void testRobotDollard();
 
 int main()
 {
@@ -30,6 +31,7 @@ int main()
     testRobotTraceur();
     testRobotCarburant();
     testRobotEscargot();
+    testRobotDollard();
 
     std::cout << "========= Tests polymorphisme =========\n";
 
@@ -68,6 +70,16 @@ void testRobotEscargot()
 
 
 void testRobotCarburant()
+{
+    RobotCarburant x{'E', '-', 5};
+    for (int i=0; i<8; ++i)
+    {
+        x.montrer();
+        x.avancer(1);
+    }
+}
+
+void testRobotDollard()
 {
     RobotCarburant x{'E', '-', 5};
     for (int i=0; i<8; ++i)
